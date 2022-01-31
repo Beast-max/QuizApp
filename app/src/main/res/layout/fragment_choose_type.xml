@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ChooseType">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/gk"
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="General Knowledge"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/art"
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="Art"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/veh"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/veh"
+                app:layout_constraintTop_toBottomOf="@+id/veh">
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mthology"
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="Mythology"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/gk"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/gk"
+                app:layout_constraintTop_toBottomOf="@+id/gk">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sports"
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="Sports"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/mthology"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/mthology"
+                app:layout_constraintTop_toBottomOf="@+id/mthology">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/veh"
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="Vehicles"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/sports"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/sports"
+                app:layout_constraintTop_toBottomOf="@+id/sports">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/animals"
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="Animals"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/art"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/art"
+                app:layout_constraintTop_toBottomOf="@+id/art">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/celebs"
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="Celebrities"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/animals"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/animals"
+                app:layout_constraintTop_toBottomOf="@+id/animals">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/history"
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="History"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/celebs"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/celebs"
+                app:layout_constraintTop_toBottomOf="@+id/celebs">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/comics"
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="Comics"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/history"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/history"
+                app:layout_constraintTop_toBottomOf="@+id/history">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/gadgets"
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="Gadgets"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/history"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/history"
+                app:layout_constraintTop_toBottomOf="@+id/history">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/videogame"
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="Video Games"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/gadgets"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/gadgets"
+                app:layout_constraintTop_toBottomOf="@+id/gadgets">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="215dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/sairamedium"
+                android:text="Politics"
+                android:id="@+id/politics"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/videogame"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/videogame"
+                app:layout_constraintTop_toBottomOf="@+id/videogame">
+
+            </androidx.appcompat.widget.AppCompatButton>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

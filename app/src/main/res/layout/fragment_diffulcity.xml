@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".fragment.DiffulcityFragment">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/easyy"
+        android:layout_width="215dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/easydrw"
+        android:text="Easy"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/meduimm"
+        android:layout_width="215dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/mediumdrw"
+        android:text="Medium"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/easyy"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/easyy"
+        app:layout_constraintTop_toBottomOf="@+id/easyy" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/hardd"
+        android:layout_width="215dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/harddrw"
+        android:text="Hard"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/meduimm"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/meduimm"
+        app:layout_constraintTop_toBottomOf="@+id/meduimm" />
+</androidx.constraintlayout.widget.ConstraintLayout>

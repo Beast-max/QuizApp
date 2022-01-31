@@ -6,11 +6,23 @@
         <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/background.xml" value="0.290625" />
         <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/buttonbackground.xml" value="0.290625" />
         <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/dialogbackground.xml" value="0.290625" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/easy.xml" value="0.290625" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/easydrw.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/hard.xml" value="0.290625" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/harddrw.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/medium.xml" value="0.290625" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/mediumdrw.xml" value="0.15989583333333332" />
         <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_question.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_result.xml" value="0.2151268115942029" />
         <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/layout/correctanswerdialog.xml" value="0.2" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/layout/fragment_choose_type.xml" value="0.2" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/layout/fragment_diffulcity.xml" value="0.176" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/layout/fragment_question.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/layout/fragment_start.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/layout/typelayout.xml" value="0.2" />
         <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/layout/wronganswer.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/QuizApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15989583333333332" />
       </map>
     </option>
   </component>

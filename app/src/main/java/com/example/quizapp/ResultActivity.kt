@@ -13,7 +13,7 @@ class ResultActivity : AppCompatActivity() {
      val score =    intent.getIntExtra("score",0)
         finalscore.text = "Final Score :$score"
         button2.setOnClickListener {
-            val intent = Intent(this,QuestionActivity::class.java)
+            val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
             finish()
         }
